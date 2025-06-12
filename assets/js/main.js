@@ -35,7 +35,10 @@ if (toggleBtn) {
 // Handle search button click
 searchBtn.addEventListener("click", () => {
     const username = searchInput.value.trim();
-    if (!username) return;
+    if (!username) {
+        errorBox.style.display = "block";
+        return;
+    }
     updateProfileFromUsername(username);
 });
 

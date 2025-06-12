@@ -52,7 +52,7 @@ body {
 }
 
 .not-available-icon {
-  filter: brightness(0) saturate(100%) invert(74%) sepia(11%) saturate(263%) hue-rotate(186deg) brightness(95%) contrast(87%);
+  filter: brightness(0) saturate(100%) invert(81%) sepia(10%) saturate(507%) hue-rotate(194deg) brightness(94%) contrast(87%);
 }
 
 /* Dark mode */
