@@ -1,0 +1,58 @@
+
+
+@media (max-width: 768px) {
+    body{
+        margin-top: 2rem;
+        padding-inline: 2em;
+    }
+    .header{
+        // justify-content: space-between;
+        margin-top: 0;
+
+        .grid{
+            justify-content: space-between;
+        }
+    }
+    .profile-card{
+        display: block;
+        &__name{
+            font-size: var(--fs-500);
+        }
+        &__avatar{
+            width: 70px;
+            height: 70px;
+        }
+        &__date{
+            margin-top: 0;
+        }
+        &__username{
+            margin-top: 0;
+        }
+        &__header{
+            display: none;
+        }
+
+        &__header-mobile{
+            display: flex;
+        }
+        &__container{
+            display: flex;
+            gap: 1rem;
+        }
+
+        &__date{
+            margin-right: 0;
+        }
+        &__links{
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: none;
+            gap: 1rem;
+            margin-top: 0;
+        }
+
+        &__stat strong{
+            font-size: var(--fs-500);
+        }
+    }
+
+}

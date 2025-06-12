@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <title>Frontend Mentor</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="grid wide">
+            <div class="header__text">
+                devfinder
+            </div>
+            <div class="header__icon" id="toggle-mode">
+                <span>DARK</span>
+                <img src="./assets/icons/icon-moon.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="search-box">
+        <input id="search-input" type="text" placeholder="Search GitHub username..." />
+        <div  id="error"  class="search-box__error">No results</div>
+        <button  id="search-btn" type="button">Search</button>
+    </div>
+
+    <div class="profile-card">
+        <div class="profile-card__container">
+            <img id="avatar" src="./assets/images/avatar_example.png" alt="avatar" class="profile-card__avatar" />
+            <div class="profile-card__header-mobile">
+                <div class="profile-card__info">
+                    <h2  class="profile-card__name">undefined</h2>
+                    <a  href="#" class="profile-card__username">@undefined</a>
+                </div>
+                <p  class="profile-card__date">Joined 10 Jun 2025</p>
+            </div>
+
+        </div>
+
+        <div class="profile-card__content">
+            <div class="profile-card__header">
+                <div class="profile-card__info">
+                    <h2  class="profile-card__name">undefined</h2>
+                    <a  href="#" class="profile-card__username">@undefined</a>
+                </div>
+                <p  class="profile-card__date">Joined 10 Jun 2025</p>
+            </div>
+
+            <p id="bio" class="profile-card__bio">undefined</p>
+
+            <div class="profile-card__stats">
+                <div class="profile-card__stat">
+                    <span>Repos</span>
+                    <strong id="repos">undefined</strong>
+                </div>
+                <div class="profile-card__stat">
+                    <span>Followers</span>
+                    <strong id="followers">undefined</strong>
+                </div>
+                <div class="profile-card__stat">
+                    <span>Following</span>
+                    <strong id="following">undefined</strong>
+                </div>
+            </div>
+
+            <div class="profile-card__links">
+                <div class="profile-card__link">
+                    <img src="./assets/icons/icon-location.svg" alt="Location Icon" class="icon" />
+                    <span id="location">undefined</span>
+                </div>
+                <div class="profile-card__link">
+                    <img src="./assets/icons/icon-twitter.svg" alt="Twitter Icon" class="icon" />
+                    <span id="twitter">@undefined</span>
+                </div>
+                <div class="profile-card__link">
+                    <img src="./assets/icons/icon-website.svg" alt="Website Icon" class="icon" />
+                    <span id="website">undefined</span>
+                </div>
+                <div class="profile-card__link">
+                    <img src="./assets/icons/icon-company.svg" alt="Company Icon" class="icon" />
+                    <span id="company">undefined</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<script src="./assets/js/main.js"></script>
+</body>
+
+</html>
