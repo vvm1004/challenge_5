@@ -1,9 +1,8 @@
 #Challenge: Create a Sign In and Sign Up System
-- The challenge is to create a movie search application using external APIs and advanced JavaScript functionalities. The application will allow users to search for movies and display information about them. To create the application, developers can use APIs such as the OMDB API, which provides movie information such as title, year, plot, and ratings
+- Participants must ensure the layout is built accurately with respect to spacing, size, colors, fonts, and effects, matching the design
 
 ##Application Pages (The order in which the pages will be done)
 - Home
-- Details movile
 
 ###Technologies Used
 - HTML
@@ -13,16 +12,14 @@
 - Fetch API: For making HTTP requests to the server
 
 ####Challenge Requirement
-- Create a movie search app that matches the given design
-- Allow users to enter a movie name in the search input.
-- Display a movie or Movie not found text if there is no movie that matches the searched text.
-- Ensure the page is responsive on different screen sizes.
+- Search for GitHub users by their username
+- See relevant user information based on their search
+- Switch between light and dark themes
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 #####Link Design Prefer
-- https://react-query-movies-app.netlify.app/
+- https://carvalhovincent.github.io/GitHub-user-search-app/
 
 ######Link API
-- https://www.omdbapi.com/?apikey=YOUR_API_KEY&s=MOVIE_NAME
-
-#######Support
-- Link get API KEY: https://www.omdbapi.com/apikey.aspx
+- https://api.github.com/users/${username}
